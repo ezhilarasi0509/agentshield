@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AgentShield
+.DS_Store
+.env
+.env.*
+!.env.example
+data/traces/
+data/*.db
+*.sqlite
